@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="penn.apps.penndiscount"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        <activity
+            android:name="penn.apps.penndiscount.PennDiscountActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="penn.apps.penndiscount.YourCouponsActivity" 
+            	android:label="@string/yourcoupon"
+       			 android:parentActivityName="penn.apps.penndiscount.PennDiscountActivity">
+            
+        </activity>
+        
+        <activity android:name="penn.apps.penndiscount.BusinessActivity" 
+            	android:label="@string/business"
+            	android:parentActivityName="penn.apps.penndiscount.PennDiscountActivity">
+            
+        </activity>
+        
+        <activity android:name="penn.apps.penndiscount.BusinessCouponsActivity" 
+            	android:label="@string/businesscoupons"
+            	android:parentActivityName="penn.apps.penndiscount.BusinessActivity">
+            
+        </activity>
+        
+        <activity android:name="penn.apps.penndiscount.FindCustomerActivity" 
+            	android:label="@string/findCustomer"
+            	android:parentActivityName="penn.apps.penndiscount.BusinessActivity">
+            
+        </activity>
+        
+        
+        <activity
+            android:name="penn.apps.penndiscount.CustomerHomeActivity"
+            android:label="@string/title_activity_customer_home" >
+        </activity>
+        
+        
+    </application>
+    
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+</manifest>
