@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="hello">Hello World, PennDiscountActivity!</string>
+    <string name="app_name">PennDiscount</string>
+    <string name="name">PennDiscount</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="yourcoupon">Your Coupons</string>
+    <string name="chooseCoupon">Give A Coupon to</string>
+    <string name="findCustomer">Send a Coupon</string>
+    <string name="business">Business Home</string>
+    <string name="businesscoupons">Business Coupons</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_customer_home">CustomerHomeActivity</string>
+    <string name="sendCoupon">Send</string>
+    
+    
+</resources>
